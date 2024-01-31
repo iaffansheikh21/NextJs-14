@@ -1,0 +1,33 @@
+/* ContactUs.module.css */
+.contactContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contactContent {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .contactImage {
+    flex-shrink: 0;
+    width: 400px;
+    height: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .contactInfo {
+    max-width: 400px;
+  }
+  
+  .contactForm {
+    flex-grow: 1;
+  }
+  
+  /* Add more styling as needed */
+  
